@@ -1,0 +1,44 @@
+body{
+    background-image: url('../img/background.jpg');
+    text-align: center;
+    background-size: cover;
+}
+#game {
+    display: inline-block;
+    text-align: center;
+    background-color: #B0C4DE;
+    border: 2px solid black;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+.col{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 5px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#titre{
+    height: 30%;
+    font-size: 60px;
+    color: #DB7093;
+    text-shadow: 2px 2px black;
+}
+.col.empty{
+    cursor: pointer;
+}
+.col.red{
+    background-color: red;
+}
+.col.yellow{
+    background-color: yellow;
+}
+.col.pred{
+    background-color: darkred;
+}
+.col.pyellow{
+    background-color: darkgoldenrod;
+}
